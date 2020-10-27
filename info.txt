@@ -1,0 +1,57 @@
+I have got into using CoqIDE 
+
+(which I guess can be found here 
+https://coq.inria.fr/coq-84
+)
+
+quite a bit. You were right that one can directly input proofs and do functional programming , and I must say that these "proof assistants" feel to me like they are decades ahead of languages like Haskell etc., in terms of their capabilities. I have also read that Coq can do more than lean. And Coq was what Voevodsky used.  Also, there are multiple HoTT resources I have found which can just be dropped straight into CoqIDE which should make learning HoTT much easier:
+
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://mdnahas.github.io/doc/Reading_HoTT_in_Coq.pdf&ved=2ahUKEwiR-v2k8rTsAhUBGuwKHfjLDSUQFjADegQIBBAB&usg=AOvVaw3WLWt09fsEz_xYwwMtaNcD
+
+https://hott.github.io/HoTT/coqdoc-html/HoTT.Basics.Overture.html
+http://hott.github.io/HoTT/coqdoc-html/HoTT.Overture.html
+
+https://github.com/andrejbauer/Homotopy/blob/master/OberwolfachTutorial/univalence.v
+
+( .v files are Coq files)
+
+There are also these repositories
+
+https://github.com/HoTT/HoTT
+
+https://github.com/UniMath
+
+But I guess one has to use emacs and proof general etc. to use these properly, and that seems a bit too advanced for me at the moment.
+
+Another benefit for me is that somebody sent me an implementation of local set theory in Coq a while ago, and so learning Coq might allow me to understand their code.
+
+Best wishes,
+Richard
+
+official hott
+
+https://www.youtube.com/watch?v=9f4pS9s-X2A
+
+coq book
+
+https://books.google.co.uk/books?id=FeklBQAAQBAJ
+
+https://play.google.com/books/reader?id=FeklBQAAQBAJ&printsec=frontcover&pg=GBS.PA30
+
+my hott
+
+https://www.youtube.com/watch?v=kFrt_Bbd8Mw&list=PLCTMeyjMKRkpqXv_99VjMR52qSzh6JExK&index=1
+
+git add *
+git commit -m "hello"
+git push
+
+richardsouthwell254@gmail.com
+
+coq installation video part 1
+
+https://www.youtube.com/watch?v=4dLItUPI6tA&list=PLCTMeyjMKRkpqXv_99VjMR52qSzh6JExK&index=97
+
+
+
+

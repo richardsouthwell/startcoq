@@ -1,0 +1,2 @@
+deep_embedding.v and shallow_embedding.v were written by Nathan Guermond,
+and shared with me, for representing the local set theory of Bell.
