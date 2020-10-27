@@ -1,0 +1,22 @@
+
+make curry-howard video
+
+https://www.youtube.com/watch?v=iXZR1v3YN-8
+
+finish book (use geogebra)
+
+watch hott series
+
+https://www.youtube.com/watch?v=u92V0OMgvhM&list=PL1-2D_rCQBarjdqnM21sOsx09CtFSVO6Z
+
+understand hott notation (use hott book, and Martin Loff intensional paper)
+
+Learn how to use coq
+
+Implement hott, CatTh and Local Set Theory In coq
+
+Contribute To StateBox
+
+make "creation stories of maths" video
+
+make "modern foundations of maths" vid
