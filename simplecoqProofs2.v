@@ -331,6 +331,28 @@ Eval compute in (addThem2 4 7).
 
 Eval compute in (addThem2 5 7).
 
+Theorem or_uni : forall A B C : Prop, ((or A B) -> C) -> (and (A -> C) (B -> C)).
+
+Proof.
+  exact ( fun A B C f => (conj (fun a => f (or_introl a)) (fun b => f (or_intror b)))).
+  Show Proof.
+  Qed.
+
+Theorem or_unit_converse : forall A B C : Prop, (and (A -> C) (B -> C)) -> ((or A B) -> C).
+
+Proof.
+
+ Definition peicewise2 : ( forall A B C : Prop, (and (A -> C) (B -> C)) -> ((or A B) -> C) ) := fun A B C m n =>
+            match n with
+            | (or_introl a) => ((proj1 m) a)
+            | (or_intror b) => ((proj2 m) b)
+            end.
+ exact (peicewise2).
+ Show Proof.
+Qed.
+
+
+
 
 
 
